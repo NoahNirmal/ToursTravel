@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* border: 2px red solid; */
+}
+
+.maincontainer {
+    width: 100%;
+    height: 100%;
+    /* border: 2px blue solid; */
+    padding: 2rem 4rem;
+
+}
+
+.innermaincontainer {
+    width: 100%;
+    height: 100%;
+    /* border: 2px blue solid; */
+
+
+}
+
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.leftnavbar {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightnavbar {
+    width: 60%;
+    height: 100%;
+    /* border: 2px black solid; */
+}
+
+.rightnavbar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+.rightnavbar ul li {
+    /* border: 2px red solid; */
+    width: 15%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightnavbar ul li button {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.imgsection {
+    width: 100%;
+    height: 80vh;
+    /* border: 2px red solid; */
+    margin-top: 1rem;
+
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/70/73/ZOhVl8.jpg");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.bannerContent {
+    height: 50%;
+    width: 70%;
+    color: white;
+    padding-top: 2rem;
+    z-index: 1000;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.bannerContainer h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.bannerContainer button {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+.mainContent {
+    /* border: 2px solid green; */
+    position: relative;
+    top: -190px;
+}
+
+.exploreNowContainer {
+    /* border: 2px solid green; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 1000;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 0.7rem 1rem;
+    box-shadow: 5px 5px 7px rgba(25, 25, 27, 0.37);
+    border-radius: 10px;
+    /* border: 2px solid red; */
+}
+
+.exploreNowContent {
+    /* border: 2px red solid; */
+    width: 25%;
+
+}
+
+input {
+    /* border-bottom: 2px solid black; */
+    border: none;
+    outline: none;
+    margin: 0.7rem 0rem;
+    padding: 5px 0px;
+}
+
+.exploreNowContent p {
+    font-weight: 700;
+}
+
+/* .exploreNowContainer button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+} */
+button {
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.contriesToTravelContainer {
+    /* border: 2px red solid; */
+    width: 95%;
+    margin: auto;
+    padding: 5rem 2rem 1rem 2rem;
+    background: rgba(255, 255, 255, 0.479);
+    box-shadow: 5px 5px 7px rgba(25, 25, 27, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    position: relative;
+    top: -60px;
+    z-index: 999;
+    /* border: 2px solid red; */
+}
+
+.contriesToTravelContainer h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    /* border: 2px solid red; */
+}
+
+.countriesCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.countriesCardContainer h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card {
+    /* border: 2px red solid; */
+    width: 220px;
+    margin: 0.7rem;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+}
+
+
+.cardbtn-container {
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.bestTourContainer {
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 3rem; */
+    margin: auto auto;
+
+}
+
+.destinationCardContainer {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+
+
+}
+
+.destinationCard {
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgba(25, 25, 27, 0.37);
+    transition: all 0.5s;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destinationCard button {
+    width: 60%;
+    height: 10%;
+    margin: 0.3rem 0rem;
+    background-color: rgb(100, 228, 138);
+    color: black;
+}
+
+.imagecard-decsp {
+    /* border: 2px blue solid; */
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.imgdescp {
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black w/opacity/see-through */
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdescp p {
+    font-size: 13px;
+}
+
+.destinationCard img {
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.destinationCard:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cardContent {
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.leftcardContent{
+    /* border: 2px black solid; */
+    width: 68%;
+    height: 100%;
+    
+
+}
+ .leftcardContent span{
+    font-size: 13px;
+ }
+.rightcardContent{
+    /* border: 2px black solid; */
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.details{
+    width: 100%;
+    height: 50%;
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destination-container{
+    width: 60%;
+    height: 60vh;
+    /* border: 2px red solid; */
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.destination-leftcontainer{
+    width: 50%;
+    height: 100%;
+    /* border: 2px black solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.countrys{
+    /* border: 2px red solid; */
+    width: 80%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.countrys button{
+    width: 50%;
+    
+}
+.destination-rightcontainer{
+    width: 50%;
+    height: 100%;
+    /* border: 2px black solid; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEvD12RVZSZhUGzzTjqZNebDUFBvRug7TiWg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.india{
+    width: 40%;
+    height: 12%;
+    /* border: 2px red solid; */
+    position: absolute;
+    top:20% ;
+    right: -30px;
+    background-color: white;
+    box-shadow: 1px 1px 1px  gray;
+}
+
+.USA{
+    width: 40%;
+    height: 12%;
+    /* border: 2px blue solid; */
+    position: absolute;
+    bottom:20% ;
+    left: -30px;
+    background-color: white;
+    box-shadow: 1px 1px 1px  gray;
+
+
+}
+
